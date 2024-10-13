@@ -99,10 +99,11 @@
 
         <div class="flex space-x-6">
           <img
-            src="./Images/flag.png"
-            class="self-center"
+            src="./Images/india-flag.svg"
+            class=" hidden lg:block"
             width="28px"
             height="20px"
+            
           />
 
           <button
@@ -115,6 +116,7 @@
             class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500"
           >
             Sign Up
+            
           </button>
         </div>
       </div>
@@ -124,12 +126,12 @@
 
     <section class="relative bg-deepBlue">
       <div
-        class="w-10/12 max-w-[1000px] flex flex-row justify-between items-center mx-auto"
+        class="w-10/12 max-w-[1080px] flex  sm:flex-col lg:flex-row justify-between items-center mx-auto"
       >
         <!-- left part -->
         <div class="space-y-8">
           <h1
-            class="font-mullish font-bold text-[35px] leading-[1.2] text-white"
+            class="font-mullish font-bold text-[40px] leading-[1.2] text-white"
           >
             Power your finance, grow your business
           </h1>
@@ -160,28 +162,37 @@
 
         <!-- right part -->
         <img
-          src="./Images/main_image.png"
+          src="./Images/hero-illustration.jpg"
           alt=""
-          class="w-full max-w-[600px]"
+          class="w-full max-w-[580px]"
         />
       </div>
 
       <!-- shape part -->
       <div class="absolute left-0 right-0 w-full">
-        <img src="./Images/main2.jpg" alt="" class="w-full object-fill" />
+        <img src="./Images/hero-shape.svg" alt="" class="w-full object-fill" />
       </div>
     </section>
 
     <!-- feature section-1 -->
 
-    <section class="relative mt-[140px]">
+    <section class="relative mt-[190px]">
       <img
-        src="./Images/dot_image.png"
+        src="./Images/feature-section1-dottedrows.png"
         alt=""
         loading="lazy"
-        width="200"
-        height="150"
-        class="absolute top-[2rem] right-0 inline-block"
+        width="233"
+        height="167"
+        class="absolute -top-[8rem] left-[10rem] inline-block -z-10"
+      />
+
+      <img
+        src="./Images/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        width="233"
+        height="167"
+        class="absolute top-[3rem] right-0 inline-block rotate-180"
       />
 
       <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
@@ -196,7 +207,7 @@
 
         <!-- content -->
         <div
-          class="w-full min-h-[500px] bg-white flex rounded-md relative p-8 py-10 border"
+          class="w-full min-h-[520px] bg-white flex rounded-md relative p-10 py-12 border"
         >
           <!-- left-section -->
           <div class="flex flex-col justify-between w-full gap-0">
@@ -259,9 +270,9 @@
           </div>
 
           <img
-            src="./Images/container2.jpg"
+            src="./Images/payment-suite.png"
             alt=""
-            class="max-w-[700px] right-0 bottom-0"
+            class="max-w-[600px] absolute right-0 bottom-0"
           />
         </div>
 
@@ -272,7 +283,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -328,7 +339,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -385,7 +396,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -442,7 +453,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -499,7 +510,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -556,7 +567,7 @@
 
           <div class="w-full min-h-[15rem] relative cursor-pointer">
             <img
-              src="./Images/payment-link.png"
+              src="./Images/payment-link-icon.svg"
               alt=""
               class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
             />
@@ -610,40 +621,42 @@
           </div>
         </div>
       </div>
-
+      <!-- 
       <div class="absolute left-0 right-0 w-full">
         <img
           src="./Images/main4.png"
           alt=""
           class="w-full object-fill bg-cover"
         />
-      </div>
+      </div> -->
     </section>
 
     <!-- feature section-2 -->
 
-    <section class="bg-deepBlue2 pt-[10rem]">
-      <div class="w-11/12 max-w-[1010px] pt-4 mx-auto relative pt-5">
+    <section
+      class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover pb-[500px] mt-5 pt-[12rem]"
+    >
+      <div class="w-10/12 max-w-[1080px] mx-auto relative pt-4">
         <h2
           class="font-mullish text-center text-2xl leading-[1.2] text-white font-bold"
         >
           Explore Razorpay Business Banking
         </h2>
 
-        <div class="w-6 h-1 bg-greenLight mx-auto mt-6 mb-20"></div>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
         <!-- main section -->
 
         <div class="w-full m-h[440px] flex flex-col relative">
           <img
-            src="./Images/x2.png"
+            src="./Images/x-flame-1.png"
             alt=""
             loading="lazy"
             class="absolute -top-[90px] -left-[130px] w-[150px] h-auto"
           />
 
           <img
-            src="./Images/x.png"
+            src="./Images/x-flame-2.png"
             alt=""
             loading="lazy"
             class="absolute top-[150px] -right-[150px] w-[180px] h-auto"
@@ -652,19 +665,19 @@
           <!-- content box -->
 
           <div
-            class="w-full min-h-[480px] flex rounded-md relative p-10 py-12 bottom-1 border border-slate-700 bg-[#181c26]"
+            class="w-full min-h-[480px] flex rounded-md relative p-10 py-12 bottom-1 border border-slate-700 z-20 bg-[#181c2e]"
           >
             <!-- left part -->
-            <div class="flex flex-col justify-between w-full">
+            <div class="flex flex-col justify-between w-full gap-12 z-20">
               <h3
                 class="font-mullish text-[28px] leading-10 font-bold text-white max-w-[500px]"
               >
                 Manage your company's finances with
                 <img
-                  src="./Images/logo-bg.png"
+                  src="./Images/razorpayX.svg"
                   alt=""
                   loading="lazy"
-                  width="130px"
+                  width="160px"
                   height="28px"
                   class="inline"
                 />
@@ -717,7 +730,7 @@
 
                 <!-- hyperlink -->
 
-                <div class="flex items-center cursor-pointer group">
+                <div class="flex flex-row items-center cursor-pointer group">
                   <a
                     href="#"
                     class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
@@ -735,9 +748,9 @@
             <!-- background Images for content-->
 
             <img
-              src="./Images/main_image2.png"
+              src="./Images/buisness-banking.png"
               alt=""
-              class="max-w-[600px] absolute right-0 bottom-auto"
+              class="max-w-[600px] absolute right-5 bottom-5 z-4"
             />
           </div>
 
@@ -754,24 +767,31 @@
               />
 
               <svg
-                viewBox="0 0 349.325 225"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.8"
-              >
-                <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
-                  fill="#181c26"
-                  stroke="#818597"
-                  stroke-width="1"
-                ></path>
-              </svg>
-
+                    viewBox="0 0 349.32501220703125 225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.8"
+                  >
+                    <path
+                      d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                      fill="#181C2E"
+                    ></path>
+                  </svg>
               <!-- content -->
 
               <div
-                class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8"
+                class="z-[1000] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8"
               >
                 <div>
                   <h2
@@ -813,19 +833,27 @@
               />
 
               <svg
-                viewBox="0 0 349.325 225"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.8"
-              >
-                <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
-                  fill="#181c26"
-                  stroke="#818597"
-                  stroke-width="1"
-                ></path>
-              </svg>
+                    viewBox="0 0 349.32501220703125 225"
+                    xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.8"
+                  >
+                    <path
+                      d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+                      fill="#181C2E"
+                    ></path>
+                  </svg>
 
               <!-- content -->
 
@@ -871,19 +899,27 @@
               />
 
               <svg
-                viewBox="0 0 349.325 225"
-                xmlns="http://www.w3.org/2000/svg"
-                preserveAspectRatio="none"
-                class="stroke-2 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.8"
-              >
-                <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
-                  fill="#181c26"
-                  stroke="#818597"
-                  stroke-width="1"
-                ></path>
-              </svg>
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              class="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+              style="stroke-opacity: 0.8"
+            >
+              <path
+                d="m 0 6 
+              a 6 6 0 0 1 6 -6 
+              h 250.32501220703125 
+              a 16 16 0 0 1 11 5 
+              l 77 77 
+              a 16 16 0 0 1 5 11 
+              v 126 
+              a 6 6 0 0 1 -6 6 
+              h -337.32501220703125 
+              a 6 6 0 0 1 -6 -6 
+              z"
+                fill="#181C2E"
+              ></path>
+            </svg>
 
               <!-- content -->
 
@@ -951,12 +987,59 @@
                 </svg>
               </div>
             </button>
+            
           </div>
         </div>
       </div>
-
+      <!-- 
       <div class="absolute left-0 right-0 w-full">
         <img src="./Images/main3.jpg" alt="" class="w-full object-fill" />
+      </div> -->
+    </section>
+
+    <!-- new feature -->
+
+    <section class="bg-white relative">
+      <div class="relative w-11/12 max-w-[1000px] mx-auto pt-4">
+        <img
+          src="./Images/feature-section1-dottedrows.png"
+          alt=""
+          loading="lazy"
+          class="absolute w-[233px] left-[300px] -top[1rem] -z-[10]"
+        />
+        <img
+          src="./Images/feature-section1-dottedrows.png"
+          alt=""
+          class="absolute w-[233px] -right-[3.5rem] -top-[6rem -z-[10]]"
+        />
+
+        <div>
+          <!-- item-1 -->
+          <div>
+            <h2>
+              New in the
+              <span> Razorpay </span>
+              Product Suite
+            </h2>
+          </div>
+          <!-- card1 -->
+          <div>
+            <img src="./Images/razorpayXicon.svg" alt="" />
+            <h3>Corporate Cards</h3>
+            <p>
+              Simplify your recurring , international and team expenses with
+              savings on every spend .Save upto 10 lacs every month.
+            </p>
+            <div>
+              <a href="">Know More</a>
+              <i></i>
+            </div>
+          </div>
+          <!-- card2 -->
+          <!-- card3 -->
+          <!-- card4 -->
+          <!-- card5 -->
+        </div>
       </div>
     </section>
 
