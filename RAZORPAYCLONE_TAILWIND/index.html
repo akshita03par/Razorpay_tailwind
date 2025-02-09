@@ -63,7 +63,7 @@
 
           <ul class="flex space-x-6">
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Payments</a>
 
@@ -73,7 +73,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Banking</a>
 
@@ -83,7 +83,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Corporate Card</a>
 
@@ -93,7 +93,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Payroll</a>
 
@@ -103,7 +103,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Resources</a>
 
@@ -113,7 +113,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Support</a>
 
@@ -123,7 +123,7 @@
             </li>
 
             <li
-              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group"
+              class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
               <a href="#">Pricing</a>
 
@@ -148,7 +148,7 @@
             </button>
 
             <button
-              class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500"
+              class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:block"
             >
               Sign Up
             </button>
@@ -160,7 +160,7 @@
 
       <section class="relative bg-deepBlue">
         <div
-          class="w-10/12 max-w-[1080px] flex sm:flex-col lg:flex-row justify-between items-center mx-auto"
+          class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto"
         >
           <!-- left part -->
           <div class="space-y-8">
@@ -237,10 +237,17 @@
           <!-- heading -->
 
           <h2
-            class="font-mullish text-center text-2xl leading[1.2] font-extrabold"
+            class="font-mullish text-center text-2xl leading[1.2] font-extrabold hidden md:block"
           >
             Accept Payments with Razorpay Payment Suite
           </h2>
+
+          <h2
+            class="font-mullish text-center text-4xl leading[1.2] font-extrabold md:hidden"
+          >
+            Explore Razorpay Payment Suite
+          </h2>
+
           <div class="bg-greenLight w-6 h-1 mx-auto mt-4 mb-6"></div>
 
           <!-- content -->
@@ -283,16 +290,20 @@
                 </li>
               </ul>
 
-              <div class="flex flex-row items-center space-x-4">
+              <div
+                class="flex flex-col-reverse md:flex-row items-center space-x-4"
+              >
                 <button
-                  class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+                  class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] self-stretch"
                 >
                   Sign Up Now
                 </button>
 
                 <!-- hyperlink -->
 
-                <div class="flex items-center cursor-pointer group">
+                <div
+                  class="flex self-start md:items-center cursor-pointer group"
+                >
                   <a
                     href="#"
                     class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
@@ -310,13 +321,15 @@
             <img
               src="./Images/payment-suite.png"
               alt=""
-              class="max-w-[600px] absolute right-0 bottom-0"
+              class="max-w-[600px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block"
             />
           </div>
 
           <!-- links container -->
 
-          <div class="w-full grid grid-cols-3 gap-4 mt-10">
+          <div
+            class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10"
+          >
             <!-- box1 -->
 
             <div class="w-full min-h-[15rem] relative cursor-pointer">
@@ -752,9 +765,11 @@
                   </li>
                 </ul>
 
-                <div class="flex flex-row items-center space-x-4">
+                <div
+                  class="flex flex-col-reverse md:flex-row items-center space-x-4"
+                >
                   <button
-                    class="relative bg-lightBlue flex items-center justify-start text-white py-[13px] px-[13px] md:pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200"
+                    class="relative bg-lightBlue flex items-center md:justify-start text-white py-[13px] px-[13px] md:pr-[90px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 self-stretch md:w-fit"
                   >
                     Sign Up
                     <div
@@ -776,7 +791,9 @@
 
                   <!-- hyperlink -->
 
-                  <div class="flex flex-row items-center cursor-pointer group">
+                  <div
+                    class="flex flex-row self-start md:items-center cursor-pointer group"
+                  >
                     <a
                       href="#"
                       class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
@@ -796,13 +813,15 @@
               <img
                 src="./Images/buisness-banking.png"
                 alt=""
-                class="max-w-[600px] absolute right-5 bottom-5 z-4"
+                class="max-w-[600px] absolute right-5 bottom-5 z-4 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block"
               />
             </div>
 
             <!-- card box -->
 
-            <div class="grid grid-cols-3 w-full gap-4 my-14">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 my-14"
+            >
               <!-- box1 -->
 
               <div class="w-full min-h-[15rem] relative cursor-pointer">
@@ -1005,7 +1024,7 @@
 
             <!-- demo-box -->
             <div
-              class="flex w-full flex-row items-center justify-evenly border border-slate-700 mb-24 gap-y-6 relative rounded-md p-3"
+              class="flex w-full flex-row items-center justify-evenly border border-slate-700 mb-24 gap-y-6 relative rounded-md p-3 hidden md:flex md:flex-col lg:flex-row md:block lg:flex"
             >
               <p
                 class="text-white font-mullish font-bold text-[15px] leading-10"
@@ -1061,7 +1080,7 @@
           />
 
           <div
-            class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100]"
+            class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]"
           >
             <!-- item-1 -->
             <div class="realtive flex items-center -z-[100]">
@@ -1222,7 +1241,9 @@
           </p>
 
           <!-- grid -->
-          <div class="grid grid-cols-4 gap-[2rem] mt-12">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2rem] mt-12"
+          >
             <!-- card 1 -->
 
             <div>
@@ -1332,10 +1353,14 @@
       <!-- join razorpay section -->
 
       <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
-        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 flex flex-row">
+        <div
+          class="relative w-11/12 max-w-[1080px] mx-auto pt-4 flex flex-col md:flex-row"
+        >
           <!-- left-part -->
 
-          <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+          <div
+            class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)] sm:my-16"
+          >
             <h3 class="font-mullish font-bold text-2xl text-deepBlueHead">
               Join the 50,00,000+ business using Razorpay
             </h3>
@@ -1357,7 +1382,7 @@
 
           <!-- right-part -->
 
-          <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+          <div class="h-[500px] w-[500px] relative overflow-y-hidden mx-auto">
             <div
               style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
               class="absolute w-full h-[150px] top-0 z-50"
@@ -1428,7 +1453,7 @@
           <!-- main content -->
 
           <div
-            class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]"
+            class="flex flex-col xl:flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]"
           >
             <!-- left-part -->
             <img
@@ -1440,24 +1465,32 @@
             />
 
             <!-- right-part -->
-            <div class="max-w-[400px]">
+            <div class="max-w-[400px] flex flex-col">
               <img
                 src="./Images/quotes.svg"
                 alt=""
                 width="35px"
                 height="40px"
-                class="-mb-2"
+                class="-mb-2 xl:order-1"
               />
 
-              <p class="font-mullish text-3xl font-light text-grayText">
+              <p
+                class="font-mullish text-3xl font-light text-grayText xl:order-2"
+              >
                 Readymade Closed Wallet Solution For Quick Refunds
               </p>
 
-              <a href="#" class="text-grayText italic underline">Learn More</a>
+              <a href="#" class="text-grayText italic underline xl:order-3"
+                >Learn More</a
+              >
 
-              <h3 class="font-mullish text-2xl font-extrabold">Lorem Ipsum</h3>
+              <h3
+                class="font-mullish text-2xl font-extrabold -order-1 xl:order-4"
+              >
+                Lorem Ipsum
+              </h3>
 
-              <p class="font-mullish font-medium">
+              <p class="font-mullish font-medium xl:order-5">
                 CEO,XYZ Engineering Company
               </p>
               <img
@@ -1465,6 +1498,7 @@
                 alt=""
                 width="80px"
                 height="40px"
+                class="xl:order-6"
               />
             </div>
           </div>
@@ -1563,7 +1597,7 @@
             alt=""
             width="240px"
             height="282px"
-            class="mt-16 pt-4"
+            class="mt-16 pt-4 hidden lg:block"
           />
         </div>
       </section>
@@ -1571,14 +1605,14 @@
       <!-- footer -->
 
       <footer
-    style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
-    class="-mt-[400px] md:-mt-[350px]"
-  >
+        style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
+        class="-mt-[400px] md:-mt-[350px]"
+      >
         <!-- main -->
 
         <div
-      class="w-10/12 pt-[400px] pb-10 md:pt-[350px] md:my-0 md:w-11/12 max-w-[1080px] mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-between"
-    >
+          class="w-10/12 pt-[400px] pb-10 md:pt-[350px] md:my-0 md:w-11/12 max-w-[1080px] mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-between"
+        >
           <!-- column-1 -->
           <div class="flex flex-col md:max-w-[340px] lg:max-w-[260px]">
             <img
@@ -1589,10 +1623,11 @@
             />
             <p class="text-sm text-grayText my-3 font-mullish">
               Razorpay is the only payments solution in India that allows
-              businesses to accept, process and disburse payments with its product
-              suite. It gives you access to all payment modes including credit
-              card, debit card, netbanking, UPI and popular wallets including
-              JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
+              businesses to accept, process and disburse payments with its
+              product suite. It gives you access to all payment modes including
+              credit card, debit card, netbanking, UPI and popular wallets
+              including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money
+              and PayZapp.
             </p>
             <p class="text-sm text-grayText my-3 font-mullish">
               RazorpayX supercharges your business banking experience, bringing
@@ -1602,17 +1637,17 @@
               automate payroll compliance.
             </p>
             <p class="text-sm text-grayText my-3 font-mullish">
-              Manage your marketplace, automate bank transfers, collect recurring
-              payments, share invoices with customers and avail working capital
-              loans - all from a single platform. Fast forward your business with
-              Razorpay.
+              Manage your marketplace, automate bank transfers, collect
+              recurring payments, share invoices with customers and avail
+              working capital loans - all from a single platform. Fast forward
+              your business with Razorpay.
             </p>
             <p class="text-[0.625rem] text-grayText my-3 font-mullish">
-              Disclaimer: The RazorpayX powered Current Account and VISA corporate
-              credit card are provided by RBI licensed banks. Your RazorpayX
-              powered account is provided by our partner bank, in accordance with
-              RBI regulations. RazorpayX itself is not a bank and doesn't hold or
-              claim to hold a banking license.
+              Disclaimer: The RazorpayX powered Current Account and VISA
+              corporate credit card are provided by RBI licensed banks. Your
+              RazorpayX powered account is provided by our partner bank, in
+              accordance with RBI regulations. RazorpayX itself is not a bank
+              and doesn't hold or claim to hold a banking license.
             </p>
             <p class="font-mullish uppercase font-bold text-gray2">
               Subscribe to our newsletter
@@ -2148,7 +2183,9 @@
                 </ul>
               </div>
               <div>
-                <p class="font-mullish uppercase font-bold text-gray2 mb-1 mt-3">
+                <p
+                  class="font-mullish uppercase font-bold text-gray2 mb-1 mt-3"
+                >
                   HELP & SUPPORT
                 </p>
                 <ul class="space-y-2">
@@ -2169,7 +2206,9 @@
                 </ul>
               </div>
               <div>
-                <p class="font-mullish uppercase font-bold text-gray2 mb-1 mt-6">
+                <p
+                  class="font-mullish uppercase font-bold text-gray2 mb-1 mt-6"
+                >
                   FIND US ONLINE
                 </p>
                 <ul class="flex space-x-4 items-center mt-4">
@@ -2226,7 +2265,9 @@
                 </ul>
               </div>
               <div>
-                <p class="font-mullish uppercase font-bold text-gray2 mb-1 mt-6">
+                <p
+                  class="font-mullish uppercase font-bold text-gray2 mb-1 mt-6"
+                >
                   REGD. OFFICE ADDRESS
                 </p>
                 <p class="font-mullish text-sm mt-4 whitespace-nowrap">
@@ -2243,7 +2284,6 @@
           </div>
         </div>
       </footer>
-    
     </div>
 
     <script>
