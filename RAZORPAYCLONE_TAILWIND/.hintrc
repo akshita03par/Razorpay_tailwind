@@ -16,6 +16,19 @@
         "button-name": "off",
         "link-name": "off"
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "button-type": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
     ]
   }
 }
