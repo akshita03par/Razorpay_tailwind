@@ -46,22 +46,27 @@
 
   <body>
     <div class="overflow-x-hidden relative w-full">
-      <!-- Navbar -->
+      <!-- -------------Navbar---------------- -->
 
       <nav class="bg-deepBlue">
         <div
-          class="relative w-[1000px] mx-auto flex items-center justify-between"
+          class="relative w-[1100px] mx-auto flex items-center justify-between"
         >
+          <!-- logo -->
+
           <a href="/" class="cursor-pointer py-7 pr-7">
             <img
-              src="./Images/logo.png"
+              src="./Images/logo.svg"
               alt="logo"
               width="125px"
               height="30px"
             />
           </a>
 
+          <!-- navbar-list -->
+
           <ul class="flex space-x-6">
+            <!-- payments -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -72,6 +77,7 @@
               ></div>
             </li>
 
+            <!-- Banking -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -82,6 +88,7 @@
               ></div>
             </li>
 
+            <!-- Corporate Card -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -92,6 +99,7 @@
               ></div>
             </li>
 
+            <!-- Payroll -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -102,6 +110,7 @@
               ></div>
             </li>
 
+            <!-- Resources -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -112,6 +121,7 @@
               ></div>
             </li>
 
+            <!-- Support -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -122,6 +132,7 @@
               ></div>
             </li>
 
+            <!-- Pricing -->
             <li
               class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block"
             >
@@ -133,6 +144,8 @@
             </li>
           </ul>
 
+          <!-- india-flag-img -->
+
           <div class="flex space-x-6">
             <img
               src="./Images/india-flag.svg"
@@ -141,22 +154,36 @@
               height="20px"
             />
 
+            <!-- log-in-button -->
+
             <button
               class="py-3 px-5 font-nullish text-white border-lightBlue border rounded-sm text-sm font-bold"
             >
               Log in
             </button>
 
+            <!-- sign-up-button -->
+
             <button
-              class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:block"
+              class="group min-w-[32px] py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 hidden lg:flex items-center"
             >
               Sign Up
+              <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[14px] h-[14px] ml-2 transition-transform duration-200 group-hover:translate-x-1"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
             </button>
           </div>
         </div>
       </nav>
 
-      <!-- Hero section -->
+      <!-- ----------Hero section---------- -->
 
       <section class="relative bg-deepBlue">
         <div
