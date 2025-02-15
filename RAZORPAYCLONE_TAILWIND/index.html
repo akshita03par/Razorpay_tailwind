@@ -230,7 +230,7 @@
         </div>
 
         <!-- shape part -->
-        <div class="absolute left-0 right-0 w-full">
+        <div class="w-[103%] absolute left-0 right-0">
           <img
             src="./Images/hero-shape.svg"
             alt=""
@@ -239,9 +239,10 @@
         </div>
       </section>
 
-      <!-- feature section-1 -->
+      <!-- --------feature section-1--------- -->
 
-      <section class="relative mt-[190px]">
+      <!-- dotted-image-1 -->
+      <section class="relative mt-[190px] overflow-hidden">
         <img
           src="./Images/feature-section1-dottedrows.png"
           alt=""
@@ -251,6 +252,7 @@
           class="absolute -top-[8rem] left-[10rem] inline-block -z-10"
         />
 
+        <!-- dotted-image-2 -->
         <img
           src="./Images/feature-section1-dottedrows.png"
           alt=""
@@ -268,6 +270,8 @@
           >
             Accept Payments with Razorpay Payment Suite
           </h2>
+
+          <!-- heading-in-small size -->
 
           <h2
             class="font-mullish text-center text-4xl leading[1.2] font-extrabold md:hidden"
@@ -317,26 +321,38 @@
                 </li>
               </ul>
 
+              <!-- for button and hyperlink -->
+
               <div
-                class="flex flex-col-reverse md:flex-row items-center space-x-4"
+                class="flex flex-col-reverse md:flex-row items-center gap-4 md:space-x-4"
               >
+                <!-- Sign Up Button -->
+
                 <button
-                  class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] self-stretch"
+                  class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] flex items-center gap-2"
                 >
                   Sign Up Now
+                  <svg
+                    viewBox="0 0 24 24"
+                    focusable="false"
+                    class="w-[14px] h-[14px]"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                    ></path>
+                  </svg>
                 </button>
 
-                <!-- hyperlink -->
-
+                <!-- Hyperlink -->
                 <div
-                  class="flex self-start md:items-center cursor-pointer group"
+                  class="flex items-center justify-center md:justify-start cursor-pointer group"
                 >
                   <a
                     href="#"
                     class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
                     >Know More</a
                   >
-
                   <i
                     data-feather="chevron-right"
                     class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200"
@@ -352,28 +368,31 @@
             />
           </div>
 
-          <!-- links container -->
+          <!-- -----------links container----------- -->
 
           <div
             class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10"
           >
             <!-- box1 -->
 
-            <div class="w-full min-h-[15rem] relative cursor-pointer">
+            <div class="w-full min-h-[15rem] relative cursor-pointer  transition-all duration-200   ">
               <img
                 src="./Images/payment-link-icon.svg"
                 alt=""
-                class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
+                class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 "
               />
+
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -422,15 +441,17 @@
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
               />
 
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -479,15 +500,17 @@
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
               />
 
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -536,15 +559,17 @@
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
               />
 
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -593,15 +618,17 @@
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
               />
 
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -650,15 +677,17 @@
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200"
               />
 
+              <!-- box shape -->
+
               <svg
-                viewBox="0 0 349.325 225"
+                viewBox="0 0 349 225"
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
                 class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
-                style="stroke-opacity: 0.15"
+                style="stroke-opacity: 0.15; overflow: visible"
               >
                 <path
-                  d="m 0 6 a 6 6 0 0 1 6 -6 h 250.325 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 11 11 v 126 a 6 6 0 0 1 -6 6 h -337.325 a 6 6 0 0 1 -6 -6 z"
+                  d="M0 6 A6 6 0 0 1 6 0 H255 A16 16 0 0 1 266 5 L342 81 A16 16 0 0 1 349 92 V219 A6 6 0 0 1 343 225 H6 A6 6 0 0 1 0 219 Z"
                   fill="#fff"
                 ></path>
               </svg>
@@ -709,7 +738,7 @@
       </div> -->
       </section>
 
-      <!-- feature section-2 -->
+      <!-- ---------feature section-2--------- -->
 
       <section
         class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover pb-[500px] mt-5 pt-[12rem]"
@@ -1090,7 +1119,7 @@
       </div> -->
       </section>
 
-      <!-- new feature -->
+      <!-- ----------new feature------------ -->
 
       <section class="bg-white relative">
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
@@ -1251,7 +1280,7 @@
         </div>
       </section>
 
-      <!-- core features -->
+      <!-- ----------core features----------- -->
 
       <section
         class="w-full bg-[url(./Images/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14 relative core-feature-section"
@@ -1377,7 +1406,7 @@
         </div>
       </section>
 
-      <!-- join razorpay section -->
+      <!-- -----------join razorpay section-------- -->
 
       <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
         <div
@@ -1427,7 +1456,7 @@
         </div>
       </section>
 
-      <!-- testimonail section -->
+      <!-- -----------testimonail section------ -->
 
       <section class="relative">
         <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
@@ -1554,7 +1583,7 @@
         </div>
       </section>
 
-      <!-- CTA -->
+      <!-- ---------------CTA------------------ -->
 
       <section
         class="bg-[url(./Images/CTABg.svg)] bg-no-repeat bg-cover relative ctaSection min-h-[510px]"
@@ -1629,7 +1658,7 @@
         </div>
       </section>
 
-      <!-- footer -->
+      <!-- -----------footer------------------- -->
 
       <footer
         style="background: linear-gradient(to right, #eef9fe, #edf7ff)"
